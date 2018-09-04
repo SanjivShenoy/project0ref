@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  margin: 0px; }
+
+.whole {
+  background-color: #ffdfb7; }
+
+.inline {
+  display: inline-block; }
+
+.right1 {
+  float: right;
+  margin-left: 220px;
+  margin-top: 50px;
+  border: 1px solid #e08845;
+  border-width: 3px; }
+
+.left1 {
+  float: left;
+  margin: 20px; }
+
+.left {
+  float: left;
+  margin: 20px;
+  border: 1px solid #e08845;
+  border-width: 3px; }
+
+.mid {
+  float: right;
+  margin-left: 150px;
+  margin-top: 100px;
+  margin-right: 0;
+  border: 1px solid #e08845;
+  border-width: 3px; }
+
+.right {
+  float: right;
+  margin-left: 120px;
+  margin-top: 0;
+  margin-right: 0;
+  border: 1px solid #e08845;
+  border-width: 3px; }
+
+/*# sourceMappingURL=styles.css.map */
