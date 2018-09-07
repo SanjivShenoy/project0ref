@@ -19,6 +19,7 @@ h1{
 .inline{
     display: inline-block;
 }
+
 .right1{
     @extend %right;
     margin-left: 220px;
@@ -69,6 +70,10 @@ h1{
         text-align: center;
         display: flex;
         justify-content: center;
+    }
+
+    .right1{
+        margin-left: 150px;
     }
 }
 
