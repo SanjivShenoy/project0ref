@@ -6,7 +6,7 @@ h1 {
 .left1, .left, .col-5 {
   float: left; }
 
-.right1, .mid, .right, .col-6 {
+.right1, .mid, .right {
   float: right; }
 
 .whole {
@@ -46,11 +46,6 @@ h1 {
 .col-5 {
   margin-left: 20px; }
 
-.col-6 {
-  margin-left: 50px;
-  margin-top: 100px;
-  width: 700px; }
-
 .col-7 {
   width: 1000px;
   margin-top: 30px; }
@@ -65,5 +60,15 @@ h1 {
 .container {
   display: flex;
   flex-wrap: wrap; }
+
+#tou {
+  float: right;
+  margin-left: 50px; }
+  @media (min-width: 500px) {
+    #tou {
+      margin-top: 100px; } }
+  @media (max-width: 500px) {
+    #tou {
+      margin-top: 50px; } }
 
 /*# sourceMappingURL=styles.css.map */

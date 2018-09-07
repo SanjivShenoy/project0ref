@@ -63,30 +63,6 @@ h1{
 }
 
 
-.col-6{
-    @extend %right;
-    margin-left: 50px;
-    margin-top: 100px;
-    width: 700px;
-}
-
-
-
-.col-lg-6{
-    @extend %right;
-    margin-left: 50px;
-    margin-top: 100px;
-    width: 700px;
-}
-
-.col-sm-10{
-    @extend %right;
-    margin-left: 50px;
-    margin-top: 100px;
-    width: 700px;
-}
-
-
 .col-7{
     width:1000px;
     margin-top: 30px;
@@ -104,4 +80,15 @@ h1{
 .container{
     display: flex;
     flex-wrap: wrap;
+}
+
+#tou{
+    float:right;
+    margin-left:50px;
+     
+     @media(min-width: 500px){
+     margin-top:100px;}
+
+     @media(max-width:500px){
+    margin-top: 50px;}
 }
