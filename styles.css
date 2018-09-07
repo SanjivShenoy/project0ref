@@ -3,10 +3,10 @@ h1 {
   margin: 0px;
   color: #af2f2f; }
 
-.left1, .left, .leftF1 {
+.left1, .left, .col-5 {
   float: left; }
 
-.right1, .mid, .right, .rightF1 {
+.right1, .mid, .right, .col-6 {
   float: right; }
 
 .whole {
@@ -43,10 +43,10 @@ h1 {
   border: 1px solid #e08845;
   border-width: 3px; }
 
-.leftF1 {
-  margin: 20px; }
+.col-5 {
+  margin-left: 20px; }
 
-.rightF1 {
+.col-6 {
   margin-left: 50px;
   margin-top: 100px;
   width: 700px; }
