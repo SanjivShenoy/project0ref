@@ -62,7 +62,7 @@ h1{
     margin-left:20px;
 }
 
-@media(min-width: 300px)
+@media(min-width: 500px)
 {
 .col-6{
     @extend %right;
@@ -72,7 +72,7 @@ h1{
 }
 }
 
-@media(max-width: 299px)
+@media(max-width: 499px)
 {
     @extend %right;
     margin-left: 25%;
