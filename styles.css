@@ -1,6 +1,13 @@
 h1 {
   text-align: center;
-  margin: 0px; }
+  margin: 0px;
+  color: #af2f2f; }
+
+.left1, .left, .leftF1 {
+  float: left; }
+
+.right1, .mid, .right, .rightF1 {
+  float: right; }
 
 .whole {
   background-color: #ffdfb7; }
@@ -9,24 +16,20 @@ h1 {
   display: inline-block; }
 
 .right1 {
-  float: right;
   margin-left: 220px;
   margin-top: 50px;
   border: 1px solid #e08845;
   border-width: 3px; }
 
 .left1 {
-  float: left;
   margin: 20px; }
 
 .left {
-  float: left;
   margin: 20px;
   border: 1px solid #e08845;
   border-width: 3px; }
 
 .mid {
-  float: right;
   margin-left: 150px;
   margin-top: 100px;
   margin-right: 0;
@@ -34,11 +37,29 @@ h1 {
   border-width: 3px; }
 
 .right {
-  float: right;
   margin-left: 120px;
   margin-top: 0;
   margin-right: 0;
   border: 1px solid #e08845;
   border-width: 3px; }
+
+.leftF1 {
+  margin: 20px; }
+
+.rightF1 {
+  margin-left: 50px;
+  margin-top: 100px;
+  width: 700px; }
+
+.col-7 {
+  width: 1000px;
+  margin-top: 30px; }
+
+.col-3 {
+  margin: 20px; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap; }
 
 /*# sourceMappingURL=styles.css.map */
